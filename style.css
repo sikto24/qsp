@@ -1,0 +1,46 @@
+/*!
+Theme Name: quick start pack
+Theme URI: 
+Author: SIKTO
+Author URI: https://sikto.xyz
+Description: Description
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: qsp
+Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
+*/
+
+
+a:hover {
+	text-decoration: none;
+}
+
+body{
+
+}
+
+/*brandicum section style*/
+
+.brandicum-section {
+    padding: 100px;
+    background: #ddd no-repeat center center/cover;
+    color: #fff;
+    position: relative;
+    z-index: 2;
+}
+
+.brandicum-section span a {
+    color: #fff;
+}
+
+.brandicum-section:before {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #333;
+    content: "";
+    opacity: .7;
+}
